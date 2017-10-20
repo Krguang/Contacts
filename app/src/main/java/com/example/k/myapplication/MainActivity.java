@@ -113,7 +113,8 @@ public class MainActivity extends AppCompatActivity {
                 });
                 builder_insert.show();
                 break;
-
+            case R.id.action_exit:
+                System.exit(0);
             default:
                 break;
         }
